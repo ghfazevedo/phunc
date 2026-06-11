@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from scipy.stats import gaussian_kde
-from phenofun import __version__
+from phunc import __version__
 #from scipy.stats import lognorm
 
 # Function to parse arguments

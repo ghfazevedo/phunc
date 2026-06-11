@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="phenofun",
-    version="1.0",
+    name="phunc",
+    version="1.1.0",
     author="Guilherme Azevedo",
     description="A CLI tool to calculate the probability of fixation of differences in a hypothetical nuclear locus that controls phenotype under neutral divergence.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/ghfazevedo/phenofun",
-    packages=["phenofun"],
-    package_dir={"phenofun": "src/"},  
+    url="https://github.com/ghfazevedo/phunc",
+    packages=["phunc"],
+    package_dir={"phunc": "src/"},  
     include_package_data=True,
     install_requires=[
         'dendropy',
@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'phenofun = phenofun.phenofun:main',
+            'phunc = phunc.phunc:main',
         ]
     },
     classifiers=[
