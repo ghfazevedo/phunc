@@ -42,6 +42,7 @@ The program print the probability of the target *s* to the terminal and creates 
 
 ## Command Options
 
+```bash
 usage: phunc [-h] -t TREE [-o OUT_DIR] [-n N_SIMULATIONS] -s N_SAMPLED_INDIVIDUALS -ts TARGET_S_STATISTICS [-p PHENOTYPE_MAP] [-v]
 
 Calculates the probability of fixation of differences in a hypothetical nuclear locus that controls phenotype under neutral divergence.
