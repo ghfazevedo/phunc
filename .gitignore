@@ -3,3 +3,4 @@
 .vscode/settings.json
 src/__pycache__/phenofun.cpython-311.pyc
 /phunc.egg-info
+/dist

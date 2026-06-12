@@ -10,12 +10,10 @@ If you use this program, please cite [Azevedo et al. 2026)](https://doi.org/10.1
 This program uses [DendroPy](https://jeetsukumaran.github.io/DendroPy) library that is installed automatically as a dependency.
 Please cite [DendroPy](https://jeetsukumaran.github.io/DendroPy).
 
-To install PhUnC clone this github page and use pip.
+To install PhUnC use pip.
 
 ```
-git clone https://github.com/ghfazevedo/phunc
-cd phunc
-pip install .
+pip install phunc
 ```
 
 ## Example usage
